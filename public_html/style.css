@@ -1,0 +1,280 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Nov 14, 2022, 12:38:04 PM
+    Author     : Nikola
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap');
+
+html{
+    font-size: 10px;
+}
+.container{
+    width: 1200px;
+    padding:  0 15px 0 15px;
+    margin: 0 auto;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans Regular', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color:#2C2D3C;
+    text-align:left;
+    font-weight: 400;
+}
+img{
+    max-width: 100%;
+}
+h1,
+h2,
+h3,
+h3,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.d-block{
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.justify-between{
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-flex-pack:justify;
+}
+
+.align-center{
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-flex-align:center;
+}
+.justify-space-around{
+    justify-content: space-around;
+}
+
+.wrap{
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+.section-title{
+    font-size: 3.2rem;
+    line-height: 4.3rem;
+    text-align: center;
+    color: #2C2D3C;
+    letter-spacing: normal;
+}
+.four-column{
+    flex: 0 0 25%;
+    -webkit-flex: 0 0 25%;
+    -moz-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+}
+
+.two-column{
+    flex: 0 0 50%;
+    -webkit-flex: 0 0 50%;
+    -moz-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+}
+.three-column{
+    flex: 0 0 calc(33.33% - 24px);
+    -webkit-flex: 0 0 calc(33.33% - 24px);
+    -moz-flex: 0 0 calc(33.33% - 24px);
+    -ms-flex: 0 0 calc(33.33% - 24px);
+}
+
+
+/* header start*/
+ 
+
+header{
+    color:#FFFFFF;
+    padding: 19px 0 19px 0;
+}
+
+header .main-menu {
+    list-style: none;
+    padding: 0;
+    
+}
+
+header .main-menu li{
+    margin-left: 150px;
+}
+header .main-menu li a{
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    text-align: center;
+    letter-spacing: 0.46px;
+    color: #2C2D3C;
+    font-weight: 700;
+    text-decoration: none;
+}
+header .main-menu li a:hover,
+header .main-menu li a .active{
+    border-bottom: 2px solid #28A745;
+
+}
+/*header end*/
+
+/*section-bv4 start*/
+.about-bv4{
+    margin-bottom: 8.2rem;
+    
+}
+ .about-bv4 .about-bv4-item{
+    flex: 0 0 calc(50% - 92px);
+    width: calc(50% - 92px);
+}
+   
+
+
+.about-bv4 .section-title-1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 76px;
+    text-align: left;
+    color: #2C2D3C;
+    margin-bottom: 2rem;
+}
+.about-bv4 .about-bv4-item .about-text{
+    font-size: 2rem;
+    line-height: 2.6rem;
+    text-align: left;
+    letter-spacing: normal;
+    color: #2C2D3C;
+    font-family: 'Open Sans Regular', sans-serif;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    
+}
+.about-bv4 .about-bv4-image img{
+    width: 100%;
+    display: block;
+
+}
+/* section-bv4 end*/
+
+/*section layout start*/
+
+.section-title{
+    margin-bottom: 3.5rem;
+}
+.layout{
+    margin-bottom: 9rem;
+}
+ .layout .Layout-item{
+    margin-bottom: 2.1rem;
+    background-color: #F4F4F4;
+    padding: 3.3rem 1.5rem 0.6rem 1rem;
+    width: calc(33.33% - 24px);
+}
+.layout-wrapper .wrapper-image{
+    flex: 0 0 20%;
+    text-align: center;
+    
+}
+.layout .wrapper-div{
+    flex: 0 0 80%;
+}
+.layout .wrapper-image a{
+    color:black;
+    font-size: 5rem;
+}
+.layout .layout-item-title{
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    color: #2C2D3C; 
+   
+}
+.layout .layout-item-desctription{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+}
+
+/*section layout end*/
+
+/*section grid start*/
+.grid{
+    margin-bottom: 126px;
+    
+}
+
+.grid .section-title{
+    margin-bottom:50px ;
+}
+.grid-item{
+    background-color: #2C2D3C;
+    color: #FFFFFF;
+    padding: 5rem 1.6rem 5rem 1.6rem;
+   
+   
+}
+.grid-item:nth-of-type(2n){
+    background-color: #F4F4F4;
+    color: #2C2D3C;
+}
+.grid .grid-item span{
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    line-height: 68px;
+    font-size: 56px;
+    color:#2C2D3C;
+    background-color: white;
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.grid .grid-item span{
+    margin-bottom: 1.3rem;
+}
+
+.grid .grid-item h4{
+    margin-bottom: 1.3rem;
+    letter-spacing: normal;
+    font-size: 20px;
+    line-height: 26px;
+    /*section grid end*/
+
+
+    /* footer start*/
+}
+footer{
+    background-color: #28A745;
+}
+footer .logo{
+    margin: 2rem 0 2rem 0;
+    color: #FFFFFF;
+}
+footer p{
+    margin: 2.5rem 0 2rem 0;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    letter-spacing: 0.72px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    /*footer end*/
+}
+
